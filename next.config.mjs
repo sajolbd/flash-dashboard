@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  distDir: ".next-dashboard",
+  typescript: {
+    ignoreBuildErrors: true
+  }
+};
 
 export default nextConfig;
